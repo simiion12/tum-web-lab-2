@@ -99,3 +99,44 @@ body {
     padding: 2rem;
     margin-top: -100px;
 }
+
+.tagline {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.tagline-line {
+    width: 72px;
+    height: 2px;
+    background-color: #FBD784;
+}
+
+.heading-tagline {
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.content-section {
+    position: relative;
+    padding: 4rem;
+    background-color: #0B1D26;
+    margin-top: -1px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8rem 0;
+}
