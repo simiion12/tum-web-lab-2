@@ -140,3 +140,27 @@ body {
     margin: 0 auto;
     padding: 8rem 0;
 }
+
+.content-text {
+    padding: 2rem;
+    position: relative;
+}
+
+.content-text h2 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+}
+
+.content-text p {
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.count {
+    font-size: 6rem;
+    color: #FBD784;
+    opacity: 0.1;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+}
