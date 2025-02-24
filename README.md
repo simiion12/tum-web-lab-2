@@ -58,13 +58,17 @@ You can watch a demo of the MNTN hiking landing page in action here:
 ## Screenshots
 Here are some screenshots showcasing the landing page:
 - **Hero Section**  
-    ![Hero Section](screenshot-hero.png![img.png](img.png))
+![image](https://github.com/user-attachments/assets/85d4aba9-c3b9-41cf-8610-9f58691ccb3a)
+
 - **Hiking Levels Section**  
-    ![Hiking Levels](screenshot-levels.png)
+![image](https://github.com/user-attachments/assets/b2890750-f008-43f6-a169-b89026b0a945)
+
 - **Hiking Gear Section**  
-    ![Hiking Gear](screenshot-gear.png)
+![image](https://github.com/user-attachments/assets/f44bacfa-1bc4-4c8d-802f-e819e4c6f0a3)
+
 - **Map Navigation Section**  
-    ![Map Navigation]()
+![image](https://github.com/user-attachments/assets/efb8b74b-0b45-4e6c-9ce7-b40f0db6eb19)
+
 
 ## Github Pages
 The landing page is deployed and available on GitHub Pages. You can view the live demo here:
