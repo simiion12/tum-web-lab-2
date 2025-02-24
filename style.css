@@ -164,3 +164,46 @@ body {
     top: -2rem;
     left: 0;
 }
+
+
+.content-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    color: #FBD784;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.footer {
+    background-color: #0B1D26;
+    padding: 4rem;
+    margin-top: 4rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links h4 {
+    color: #FBD784;
+    margin-bottom: 1rem;
+}
+
+.footer-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
