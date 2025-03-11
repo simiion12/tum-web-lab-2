@@ -231,3 +231,158 @@ body {
         gap: 1rem;
     }
 }
+
+menu-toggle {
+    display: none;
+}
+
+/* CSS-only mobile menu */
+#menu-toggle-checkbox {
+    display: none;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 24px;
+        position: relative;
+        z-index: 101;
+    }
+    
+    .menu-toggle span,
+    .menu-toggle span::before,
+    .menu-toggle span::after {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .menu-toggle span {
+        top: 10px;
+    }
+    
+    .menu-toggle span::before {
+        content: '';
+        top: -8px;
+    }
+    
+    .menu-toggle span::after {
+        content: '';
+        top: 8px;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: #0B1D26;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease;
+        padding: 2rem;
+        gap: 2rem;
+        z-index: 100;
+    }
+    
+    #menu-toggle-checkbox:checked ~ .nav-links {
+        right: 0;
+    }
+    
+    .nav-links a {
+        font-size: 1.2rem;
+    }
+    
+    .hero-content {
+        margin-top: 0;
+        padding: 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .tagline {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    
+    .tagline-line {
+        width: 30px;
+    }
+    
+    .heading-tagline {
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+    }
+    
+    .content-grid {
+        padding: 3rem 0;
+    }
+    
+    .content-text h2 {
+        font-size: 1.8rem;
+    }
+    
+    .count {
+        font-size: 4rem;
+        top: -1.5rem;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    /* Simple parallax with CSS */
+    .bg-layer.hg {
+        transform: translateY(var(--parallax-hg, 0));
+    }
+    
+    .bg-layer.mg {
+        transform: translateY(var(--parallax-mg, 0));
+    }
+    
+    .bg-layer.vg {
+        transform: translateY(var(--parallax-vg, 0));
+    }
+    
+    /* Hover effects for menu */
+    .nav-links a:hover {
+        color: #FBD784;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 1rem;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    
+    .content-section {
+        padding: 2rem 1rem;
+    }
+    
+    .content-text {
+        padding: 0;
+    }
+    
+    .footer {
+        padding: 2rem 1rem;
+    }
+}
